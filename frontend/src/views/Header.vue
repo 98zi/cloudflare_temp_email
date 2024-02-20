@@ -189,10 +189,10 @@ const menuOptionsMobile = [
                         <n-icon :component="DarkModeOutlined" />
                     </template>
                 </n-switch>
-                <n-button tag="a" target="_blank" tertiary type="primary" round :size="isMobile ? 'small' : 'medium'"
+                <!-- <n-button tag="a" target="_blank" tertiary type="primary" round :size="isMobile ? 'small' : 'medium'"
                     href="https://github.com/dreamhunter2333/cloudflare_temp_email">
                     <n-icon :component="StarOutlineFilled" /> Github
-                </n-button>
+                </n-button> -->
             </div>
         </n-layout-header>
         <n-modal v-model:show="showLogin" preset="dialog" title="Dialog">
